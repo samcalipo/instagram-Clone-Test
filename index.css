@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+body{ 
+    font-size: 12px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+
+/* =============== MAIN LAYOUT ========================= */
+
+.container{
+    width: 375px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
+/* ======= MAIN LAYOUT ========== */
+.img-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+}
+.header-img1{
+    width: 127px;
+}
+.user-avatar-img{
+    height: 34px;
+    border-radius: 50%;
+}
+header{
+    border-bottom: 1px solid #C6C6C6;
+}
+
+/* =============== POST SECTION ============================== */
+
+/* POST HEADER */
+.post-header-container{
+    display: flex;
+    align-items: center;
+    padding: 10px 5px;
+    gap: 5px;
+}
+
+/* POST IMAGE */
+.post-main-image{
+    width: 100%;
+}
+
+/* POST footer */
+.post-footer{
+    padding: 10px 7px 10px 7px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.icons-container{
+    display: flex;
+    justify-content: fisrt;
+    align-items: center; 
+    gap: 15px;
+    transition:  transform .2s;
+}
+.icons-container img:hover,
+.icons-container img:focus{
+    transform: scale(1.5);
+}
+.icons-container img:active{
+    filter: invert(27%) sepia(96%) saturate(7124%) hue-rotate(356deg) brightness(101%) contrast(116%);
+
+}
+.icons-container img{
+    width: 24px;
+}
+
+/* === UTILITY ==  */
+
+.bold-text{
+    font-weight: 900;
+}
+
